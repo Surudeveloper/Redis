@@ -1,0 +1,21 @@
+////////////////////to run this code/////////////////
+
+1. open folder "D:\Applications\Redis-x64-3.0.504" 
+2. to run server run "redis-server"
+3. to run client run "redis-cli"
+
+////////////////////////////////////////////////////
+
+runs on 6379
+after install=> redis-server in cmd
+then redis-cli in different cmd
+KEYS * => to check the data 
+to insert=> set key value  (eg. set city pune)
+
+after this => KEYS * => it will give  1) "city"
+to get value => get city => "pune"
+
+if i set the key again with other value it will update its existing value
+
+to delete => del city => (nil)
+to dlt all => FLUSHALL => ok
