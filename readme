@@ -5,6 +5,8 @@
 3. to run client run "redis-cli"
 
 ////////////////////////////////////////////////////
+https://github.com/MicrosoftArchive/redis/releases
+///////////////////////////////////////////////////
 
 runs on 6379
 after install=> redis-server in cmd
